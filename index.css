@@ -1,0 +1,245 @@
+                * {
+            text-decoration: none;
+            margin: 0px;
+        }
+
+        /* NAVBAR BASE */
+        .nav {
+            background-color: rgb(43, 43, 43);
+            font-family: arial;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            padding: 0 40px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        /* FLEX CONTAINER */
+        .navdiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        /* LOGO */
+        .logo a {
+            font-size: 35px;
+            font-weight: 600;
+            color: white;
+        }
+
+        /* NAV LINKS */
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            z-index: 9999;
+        }
+
+        .nav-links li {
+            display: inline-block;
+        }
+
+        .nav-links li a {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* HAMBURGER (MOBILE ONLY) */
+        .hamburger {
+            display: none;
+            font-size: 32px;
+            color: white;
+            cursor: pointer;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            /* Nav links hidden */
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                right: 20px;
+                top: 80px;
+                background: black;
+                padding: 20px;
+                border-radius: 8px;
+                width: 150px;
+                z-index: 9999;
+            }
+
+            /* Show when toggled */
+            .nav-links.open {
+                display: flex;
+            }
+
+            /* Show hamburger */
+            .hamburger {
+                display: block;
+            }
+        }
+
+         .p-1 {
+            font-size: 50px;
+            font-family: arial;
+            position: relative;
+            max-width: 1200px;
+            font-weight: 800;
+            color: rgb(43, 43, 43);
+            display: block;
+            margin-top: 10px;
+       }
+
+       .div-1 {
+               font-family: bold;
+               font-size: 33px;
+               margin-top: 0px;
+               padding-bottom: 10px;
+               text-align: center;
+               display: flex;
+               justify-content: center;
+       }
+
+       .div-2 {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+       }
+
+       .p-2 {
+                font-family: arial;
+                font-size: 14px;
+                display: inline-block;
+                font-weight: 800;
+                color: rgb(43, 43, 43);
+                margin-top: 200px;
+                margin-bottom: 40px;
+            }
+
+        .div-about {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .p-about {
+            font-size: 50px;
+            font-family: arial;
+            position: relative;
+            max-width: 1100px;
+            font-weight: 450;
+            color: rgb(43, 43, 43);
+            display: block;
+            margin-top: 10px;
+            line-height: 75px;
+        }
+
+        .footer {
+                padding: 10px;
+                background-color: rgb(43, 43, 43);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+                margin-top: 112px;
+        }
+
+        .div-f {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .f-p {
+            font-size: 15px;
+            font-family: arial;
+            font-weight: 450;
+            color: rgb(255, 255, 255);
+        }
+
+        .div-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 70px;
+            margin-bottom: 80px;
+        }
+
+        .buttons-div {
+                display: block;
+                margin: 0 auto;
+                background-color: #2b86de;
+                height: 50px;
+                width: 300px;
+                font-family: arial;
+                border: none;
+                border-radius: 7px;
+                margin-top: 5px;
+                transition: 0.5s;
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                font-weight: 600;
+                cursor: pointer;
+        }
+
+        .div-c {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .c-p {
+            font-size: 50px;
+            font-family: arial;
+            position: relative;
+            max-width: 1200px;
+            font-weight: 800;
+            color: rgb(43, 43, 43);
+            display: block;
+            margin-top: 10px;
+        }
+
+        .div-li {
+               font-family: arial;
+               font-size: 14px;
+               font-weight: 800;
+               color: rgb(43, 43, 43);
+               margin-top: 45px;
+               padding-bottom: 70px;
+               display: flex;
+               justify-content: center;
+               text-decoration: underline;
+        }
+
+        .contain-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .p-head {
+            font-family: bold;
+            font-weight: 800;
+            font-size: 23px;
+        }
+
+        .p-body {
+            font-family: arial;
+            font-size: 18px;
+            font-weight: 450;
+            max-width: 1100px;
+        }
+
+        .contain-div-sec {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }

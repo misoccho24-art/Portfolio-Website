@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="nav">
+    <div class="navdiv">
+        <div class="logo"><a href="index.html">DevShopBD</a></div>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li><a href='about.html' target="_blank">About</a></li>
+
+            <li><a href='' target="_blank">Contact</a></li>
+
+            <li><a href="help.html">Help</a></li>
+        </ul>
+
+
+        <div class="hamburger" id="hamburger">☰</div>
+    </div>
+</nav>
+
+<div class="div-1">
+    <p class="p-1">
+        This is my portfolio website for those
+         people who wants a detailed documentetion
+          on me. You can find every information you need in this website</p>
+</div>
+
+<div class="div-2">
+    <p class="p-2">
+        Please go to <a href='/about' style='text-decoration: underline;' 
+        target='_blank'>About</a> for
+         more information and to contact me Please checkout the 
+         <a href='/contact' style='text-decoration: underline;' 
+         target='_blank'>Contact</a> page
+    </p>
+</div>
+
+<script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("navLinks");
+
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+    });
+
+</script>
+
+</body>
+</html>

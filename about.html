@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        <nav class="nav">
+    <div class="navdiv">
+        <div class="logo"><a href="index.html">DevShopBD</a></div>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li><a href=''>About</a></li>
+
+            <li><a href=''>Contact</a></li>
+
+            <li><a href="help.html">Help</a></li>
+        </ul>
+
+
+        <div class="hamburger" id="hamburger">☰</div>
+    </div>
+</nav>
+
+    <div class="div-about">
+        <p class="p-about">
+            I'm a Bangladeshi Website developer.
+             I'm building websites for over a year now.
+              I build Clean and responsive websites using HTML, CSS and JavaScript
+               i build Portfolio Websites like this one, Business Website, etc.
+                If you want a website for yourself or for your Business work or even your personal purpose
+                 i can build you a clean website for whatever purpose you want.
+                  If you want a website now or anytime you can Contact me from the Contact page in the Navigation Bar.
+                  Or click the button Below.
+        </p> 
+    </div>
+
+    <div class="div-button">
+        <a href="contact.html">
+            <button class="buttons-div">
+            Contact
+        </button>
+        </a>
+    </div>
+
+    <script>
+        const hamBurger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("navLinks");
+
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("open");
+        })
+    </script>
+
+    <footer class="footer">
+        <div class="div-f">
+            <p class="f-p">DevShopBD Powered by Enthusiast</p>
+        </div>
+    </footer>
+</body>
+</html>
